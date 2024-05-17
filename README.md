@@ -1,7 +1,7 @@
 # logstash_project
 - In this project, I will guide you through the process of setting up a centralized logging solution using the ELK(Elasticsearch, Logstash, Kibana) stack on your local machine and also guide in configurations by setting up the ELK stack locally.
 
-** What is ELK?***
+** What is ELK?**
 ELK is an acronym that stands for Elasticsearch, Logstash, and Kibana. It is a powerful open-source software stack used for centralized logging, log analysis, and visualization. Each component of ELK serves a specific purpose:
 
 - **Elasticsearch:** It is a distributed search and analytics engine that stores and indexes data. Elasticsearch allows for fast and efficient searching, aggregating, and analyzing of large volumes of data.
