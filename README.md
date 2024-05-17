@@ -1,4 +1,4 @@
-# logstash_project
+<img width="1110" alt="Screenshot 2024-05-18 at 12 23 54 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/a36cc048-006b-484c-b463-96ce31373672"># logstash_project
 - In this project, I will guide you through the process of setting up a centralized logging solution using the ELK(Elasticsearch, Logstash, Kibana) stack on your local machine and also guide in configurations by setting up the ELK stack locally.
 
 ### What is ELK?
@@ -23,3 +23,11 @@
 - here is password <img width="686" alt="Screenshot 2024-05-18 at 12 10 49 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/726fdb0c-05cd-41ae-9b34-f03145943a36">
 
 - here is security token, we use both in kibana configuration for connecting with elastic.<img width="1195" alt="Screenshot 2024-05-18 at 12 10 57 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/d4b18235-df4c-43a3-b006-8e16adf836e3">
+- To check the status of the Elasticsearch cluster connection, hit https://localhost:9200/ on your browser and provide the Username as “elastic” and use the password above one. <img width="1280" alt="Screenshot 2024-05-16 at 11 10 34 PM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/19869003-d416-48b2-b07f-52da02978258">
+
+### 3. Set up Kibana
+- [Download](https://www.elastic.co/downloads/kibana) as per your system and unzip Kibana. In my case downloading for mac.
+-  After unzip go inside bin folder and run Kibana executabke file in command or double press on that, start installing autometically.
+- after installing you will see <img width="1110" alt="Screenshot 2024-05-18 at 12 23 54 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/d5068904-80a2-4068-9308-48048f1be48e"> now open this link.
+- 
+
