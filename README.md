@@ -20,6 +20,6 @@
 - [Download](https://www.elastic.co/downloads/elasticsearch) as per your system and unzip Elasticsearch. In my case downloading for mac.
 - After unzip go inside bin folder and run elasticsearch executabke file in command or double press on that, start installing autometically.
 - Scroll down a bit, you can see the Elasticsearch security features have been automatically configured! message on the CMD output.
-- <img width="686" alt="Screenshot 2024-05-18 at 12 10 49 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/726fdb0c-05cd-41ae-9b34-f03145943a36">
+- here is password <img width="686" alt="Screenshot 2024-05-18 at 12 10 49 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/726fdb0c-05cd-41ae-9b34-f03145943a36">
 
-- <img width="1195" alt="Screenshot 2024-05-18 at 12 10 57 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/d4b18235-df4c-43a3-b006-8e16adf836e3">
+- here is security token, we use both in kibana configuration for connecting with elastic.<img width="1195" alt="Screenshot 2024-05-18 at 12 10 57 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/d4b18235-df4c-43a3-b006-8e16adf836e3">
