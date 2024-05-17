@@ -26,6 +26,8 @@ public class Student {
 	
 	@Column
 	private String email;
+	@Column
+	private long mobileNumber;
 	
 
 

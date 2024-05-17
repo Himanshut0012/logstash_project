@@ -3,18 +3,16 @@ package com.example.rjany.service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+import com.example.rjany.exception.StudentNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.example.rjany.model.Student;
 import com.example.rjany.repository.StudentRepository;
-
 @Service
 public class StudentServiceImpl implements StudentService {
 	
 	@Autowired //inject repository dependency
-	StudentRepository studentRepository;
+	private StudentRepository studentRepository;
 	
 	@Override
 	public Student saveStudent(Student student) {
@@ -22,10 +20,13 @@ public class StudentServiceImpl implements StudentService {
 	}
 	
 	@Override
-	public Student getStudentById(Long id) {
+	public Optional<Student> getStudentById(Long id) {
 		Optional<Student> student = studentRepository.findById(id);
-		if(student.isPresent()) return student.get();
-		return null;
+		if (student.isPresent()) {
+			return student;
+		} else {
+			throw new StudentNotFoundException("Student with id " + id + " not found");
+		}
 	}
 
 	@Override
@@ -55,7 +56,14 @@ public class StudentServiceImpl implements StudentService {
 
 	@Override
 	public String deleteStudent(Long id) {
-		studentRepository.deleteById(id); //delete student by id
-		return "id" + id + "is deleted successfully"; 
+		Optional<Student> student = studentRepository.findById(id);
+		if (student.isPresent()) {
+			studentRepository.deleteById(id);
+			return "Student with id " + id + " is deleted successfully";
+		} else {
+			throw new StudentNotFoundException("Student with id " + id + " not found");
+		}
 	}
+
+
 }
