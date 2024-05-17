@@ -9,5 +9,7 @@
 - **Logstash:** It is a data processing pipeline that ingests, filters, and transforms data from various sources before sending it to Elasticsearch for indexing. Logstash can handle different types of data, such as logs, metrics, and other event data.
 
 - **Kibana:** It is a web-based data visualization and exploration tool that works in conjunction with Elasticsearch. Kibana provides a user-friendly interface for searching, analyzing, and visualizing data stored in Elasticsearch. It offers various visualizations, dashboards, and tools to help gain insights from the data.
+
+  Together, these three components form the ELK stack, which is widely used for log management, monitoring, and troubleshooting in various applications and systems.
   
 ![1_gg4lsZCO1QQbhpV7DsP8vA](https://github.com/Himanshut0012/logstash_project/assets/89704266/efd43ef3-255d-4be6-ba2c-d37f6942b660)
