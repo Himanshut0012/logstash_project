@@ -70,3 +70,9 @@ output {
 
 - After runing above commandn now you can see on terminal json format <img width="1280" alt="Screenshot 2024-05-17 at 12 23 19 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/870cd915-8508-42e8-9f62-628ac544ec2c">
 #### All thing successfully installed, now see logs and managing logs using ELK.
+
+## Configure Kibana Dashboard for managing logs
+- Go to http://localhost:5601/
+- Click the burger button on the left side and go to _Management > Stack Management_
+- Inside the Management portal, go to _Data > Index Management_, if the Logstash to Elastic search connection working properly you should get the _elkdemoindex_ value on the indices list. <img width="1280" alt="Screenshot 2024-05-18 at 12 52 21 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/77c714f8-9f49-421e-aff7-f9874bde62bf"> like this.
+-  Again click the burger button on the left side and go to _Analytics > Discover_, here you can discover your logs <img width="1280" alt="Screenshot 2024-05-18 at 12 54 11 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/31c666cd-d589-4527-a8d4-4a47c58d3cee">
