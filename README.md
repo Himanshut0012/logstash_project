@@ -34,8 +34,9 @@
 
 ### 4. Set up Logstash
 - [Download](https://www.elastic.co/downloads/logstash) as per your system and unzip Kibana. In my case downloading for mac.
+- Open the logstash-sample.conf & replace the input & output plugins as mentioned below.
 
-,,,
+```
 # Sample Logstash configuration for creating a simple
 # Beats -> Logstash -> Elasticsearch pipeline.
 
@@ -59,4 +60,10 @@ output {
     password => "<Elastic Search Password>"
   }
 }
-,,,
+```
+- Replace the <Log File Full Path> with your log file location. (Make sure to use forward slashes).
+- Replace <Elastic Search Password> with the password, you saved in “Set up Elastic Search”
+- Go to the logstrash bin folder and run below command.
+  ```
+  ./logstash -f ../config/logstash-sample.conf
+  ```
