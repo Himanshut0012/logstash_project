@@ -67,3 +67,6 @@ output {
   ```
   ./logstash -f ../config/logstash-sample.conf
   ```
+
+- After runing above commandn now you can see on terminal json format <img width="1280" alt="Screenshot 2024-05-17 at 12 23 19 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/870cd915-8508-42e8-9f62-628ac544ec2c">
+#### All thing successfully installed, now see logs and managing logs using ELK.
