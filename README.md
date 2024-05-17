@@ -13,3 +13,13 @@
   Together, these three components form the ELK stack, which is widely used for log management, monitoring, and troubleshooting in various applications and systems.
   
 ![1_gg4lsZCO1QQbhpV7DsP8vA](https://github.com/Himanshut0012/logstash_project/assets/89704266/efd43ef3-255d-4be6-ba2c-d37f6942b660)
+### 1. Build Springboot Application
+- Download this springboot project and basic logs created for each request.
+
+### 2. Set up Elastic Search
+- [Download](https://www.elastic.co/downloads/elasticsearch) as per your system and unzip Elasticsearch. In my case downloading for mac.
+- After unzip go inside bin folder and run elasticsearch executabke file in command or double press on that, start installing autometically.
+- Scroll down a bit, you can see the Elasticsearch security features have been automatically configured! message on the CMD output.
+- <img width="686" alt="Screenshot 2024-05-18 at 12 10 49 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/726fdb0c-05cd-41ae-9b34-f03145943a36">
+
+- <img width="1195" alt="Screenshot 2024-05-18 at 12 10 57 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/d4b18235-df4c-43a3-b006-8e16adf836e3">
