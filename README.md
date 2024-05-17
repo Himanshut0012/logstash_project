@@ -1,4 +1,4 @@
-<img width="1110" alt="Screenshot 2024-05-18 at 12 23 54 AM" src="https://github.com/Himanshut0012/logstash_project/assets/89704266/a36cc048-006b-484c-b463-96ce31373672"># logstash_project
+# logstash_project
 - In this project, I will guide you through the process of setting up a centralized logging solution using the ELK(Elasticsearch, Logstash, Kibana) stack on your local machine and also guide in configurations by setting up the ELK stack locally.
 
 ### What is ELK?
